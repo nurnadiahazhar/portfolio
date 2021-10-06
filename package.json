@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/nurnadiahazhar/project.git",
+  "homepage": "https://github.com/nurnadiahazhar/portfolio.git",
   "name": "gatsby-starter-sasslan",
   "description": "A minimalistic Gatsby starter with a pretyy design",
   "version": "1.0.0",
@@ -42,7 +42,8 @@
     "start": "yarn develop",
     "serve": "gatsby serve",
     "test": "echo 'Write tests! -> https://gatsby.dev/unit-testing'",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
